@@ -6,7 +6,7 @@ h1{
 .moto{
     color: chocolate;
 }
-section{
+.top{
     display: flex;
 }
 .half-width{
