@@ -1,13 +1,22 @@
-h1{
+body{
     font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+    
+h1{
     font-size: 3em;
     font-weight: 700;
+}
+h2{
+    font-weight: 2em;
+    padding-top: 150px;
 }
 .moto{
     color: chocolate;
 }
 .top{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -19,7 +28,7 @@ h1{
     height: 80%; 
 }
 .half-width p{
-    padding: 5% 5% 10% 0;
+    padding: 5% 5% 10% 0; 
 }
 .button{
     text-decoration: none;
@@ -28,4 +37,19 @@ h1{
     border-radius: 10px;
     color: black;
     font-weight: 700;
+}
+.middle{
+    display: flex;
+    background-image: url(shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-half-width{
+    width: 50%;
+}
+.second-half-width p{
+    padding: 5% 5% 10% 0%;
+}
+.second-half-width img{
+    padding-left: 10%; 
 }
