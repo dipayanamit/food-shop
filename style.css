@@ -51,5 +51,17 @@ h2{
     padding: 5% 5% 10% 0%;
 }
 .second-half-width img{
-    padding-left: 10%; 
+    padding-left: 20%; 
+}
+section{
+    text-align: center;
+}
+.trio{
+    display: flex;
+    box-shadow: 10px 10px 30px black;
+    margin: 5%;
+}
+.trio img{
+    width: 20%;
+    padding: 5% 5%;
 }
